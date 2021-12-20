@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 
 import { useMeta } from '../../../../contexts';
-import { CardLoader } from '../../../../components/MyLoader';
+// import { CardLoader } from '../../../../components/MyLoader';
 import { Banner } from '../../../../components/Banner';
 import { HowToBuyModal } from '../../../../components/HowToBuyModal';
 
-import { useAuctionsList } from './hooks/useAuctionsList';
-import { AuctionRenderCard } from '../../../../components/AuctionRenderCard';
+// import { useAuctionsList } from './hooks/useAuctionsList';
+// import { AuctionRenderCard } from '../../../../components/AuctionRenderCard';
 
 const { TabPane } = Tabs;
 const { Content } = Layout;
